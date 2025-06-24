@@ -1,3 +1,3 @@
 # DSA
-Author: Rateesh Bhargava
+Author: Rateesh Bhargava <br>
 Email: rateesh1205@gmail.com
