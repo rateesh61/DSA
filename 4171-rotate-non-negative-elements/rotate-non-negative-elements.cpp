@@ -18,7 +18,7 @@ public:
         reverse(temp.begin(),temp.end());
         
 
-        for(auto& it : temp) cout << it << endl;
+        // for(auto& it : temp) cout << it << endl;
     
         for(int i=0;i<nums.size();i++)
         {
