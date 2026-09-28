@@ -7,8 +7,7 @@ public:
         for(int i=0;i<nums.size();i++)
         {
             presum+=nums[i];
-            int remove=presum-k;
-            cnt+=mpp[remove];
+            if(mpp.find(presum-k)!=mpp.end())  cnt+=mpp[presum-k];
             mpp[presum]+=1;
         }
         return cnt;
